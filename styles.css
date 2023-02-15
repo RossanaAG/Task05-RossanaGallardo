@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'rubikregular';
+    src: url('./assets/fonts/rubik-regular-webfont.woff2') format('woff2'),
+         url('./assets/fonts/rubik-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+}
+
+footer{
+    background-color: #D7DBDD;
+}
+
+.cohort{
+    font-size: 34px;
+}
+.carousel-item a{
+    font-family: rubikregular;
+    text-decoration: none;
+    -webkit-text-stroke: 1px white;
+    color: black; 
+}
+
+.navbar-nav a{
+    font-family: rubikregular;
+    font-size: 20px;
+    text-decoration: none;
+    -webkit-text-stroke: 1px black;
+    color: #D7DBDD; 
+}
+
+/*Estilo de Contact Us*/
+
+.container-form{
+    padding: 20px;
+   
+}
