@@ -24,6 +24,7 @@ footer{
 .cohort{
     font-size: 34px;
 }
+
 .carousel-item a{
     font-family: rubikregular;
     text-decoration: none;
@@ -37,6 +38,7 @@ footer{
     text-decoration: none;
     -webkit-text-stroke: 1px black;
     color: #D7DBDD; 
+    flex-grow: 0;
 }
 
 /*Estilo de Contact Us*/
@@ -45,3 +47,4 @@ footer{
     padding: 20px;
    
 }
+
