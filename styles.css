@@ -44,6 +44,45 @@ footer{
 
 .container-form{
     padding: 20px;
-   
+    background-color: #F2F3F4;
 }
 
+/*Estilo de Stats*/
+
+.container-tabla table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: consolas;
+    background-color: #73C6B6;
+}
+ 
+caption{
+    margin-top: 15px;
+    color: #F1C40F;
+}
+
+th {
+    letter-spacing: 2px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+  
+td {
+    letter-spacing: 1px;
+}
+
+thead{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+  
+  
+tbody td {
+    text-align: center;
+}
+  
+th, td {
+    padding: 20px;
+    border: 3px solid #F1C40F;
+}
